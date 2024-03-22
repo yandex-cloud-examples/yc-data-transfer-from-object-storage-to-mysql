@@ -21,11 +21,11 @@ locals {
   zone_a_v4_cidr_blocks = "10.1.0.0/16"        # CIDR block for the subnet
   sa_name               = "storage-editor"     # Name of the service account
   security_group_name   = "mmy-security-group" # Name of the security group
-  mmy_cluster_name      = "mmy-cluster"        # Name of the ClickHouse® cluster
-  mmy_db_name           = "db1"                # Name of the ClickHouse® database
-  mmy_username          = "mmy-user"              # Name of the ClickHouse® admin user
-  target_endpoint_name  = "mmy-target"         # Name of the target endpoint for the ClickHouse® cluster
-  transfer_name         = "s3-mmy-transfer"    # Name of the transfer from the Object Storage bucket to the Managed Service for ClickHouse® cluster
+  mmy_cluster_name      = "mmy-cluster"        # Name of the MySQL® cluster
+  mmy_db_name           = "db1"                # Name of the MySQL® database
+  mmy_username          = "mmy-user"           # Name of the MySQL® admin user
+  target_endpoint_name  = "mmy-target"         # Name of the target endpoint for the MySQL® cluster
+  transfer_name         = "s3-mmy-transfer"    # Name of the transfer from the Object Storage bucket to the Managed Service for MySQL® cluster
 }
 
 # Network infrastructure for the Managed Service for MySQL® cluster
