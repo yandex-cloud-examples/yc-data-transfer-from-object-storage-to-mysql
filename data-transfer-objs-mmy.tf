@@ -1,4 +1,4 @@
-# Infrastructure for the Yandex Cloud Object Storage, Managed Service for MySQL® and Data Transfer
+# Infrastructure for the Yandex Cloud Object Storage, Managed Service for MySQL®, and Data Transfer
 #
 # RU: https://cloud.yandex.ru/docs/data-transfer/tutorials/obj-mmy-migration
 # EN: https://cloud.yandex.com/en/docs/data-transfer/tutorials/obj-mmy-migration
