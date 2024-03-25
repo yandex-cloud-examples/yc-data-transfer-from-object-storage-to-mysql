@@ -1,5 +1,3 @@
-# Название сценария
+# Миграция данных из Yandex Object Storage в Yandex Managed Service for MySQL® с помощью Yandex Data Transfer
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+С помощью сервиса [Data Transfer](https://cloud.yandex.ru/ru/docs/data-transfer) вы можете перенести данные из бакета [Object Storage](https://cloud.yandex.ru/docs/storage) в таблицу [Managed Service for MySQL®](https://cloud.yandex.ru/docs/managed-mysql). Настройка через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/docs/data-transfer/tutorials/objs-mmy-migration), необходимый для настройки конфигурационный файл [data-transfer-objs-mmy.tf](data-transfer-objs-mmy.tf) расположен в этом репозитории.
